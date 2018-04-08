@@ -33,12 +33,12 @@ body {
 
 /*---------------------------------------------CONTAINERS*/
 #title {
-  margin-top: 5em;
+  display: block;
+  margin-top: 3em;
   margin-bottom: 5em;
   width: 80vw;
   background-color: #4B7F58;
   padding: 1em;
-  display: flex;
 }
 
 #studentContainer {
@@ -48,8 +48,8 @@ body {
   padding: 1em;
   flex-wrap: wrap;
   margin-left: 5em;
-
 }
+
 .containerIn {
   flex: 1;
   min-width: 10em;
@@ -63,9 +63,10 @@ body {
 
 /*---------------------------------------------DETAILS*/
   h1 {
-      font-size: 10vh;
+      font-size: 6vh;
       color: white;
       font-family: 'Pridi', serif;
+      text-align: left;
   }
 
   span {
@@ -73,7 +74,7 @@ body {
   }
 
   p {
-    font-size: 6vh;
+    font-size: 5vh;
     text-align: left;
     color: white;
   }
